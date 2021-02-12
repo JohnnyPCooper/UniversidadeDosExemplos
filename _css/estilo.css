@@ -183,3 +183,27 @@ h1#campus:hover, h1#biblioteca:hover{
     color: #FFFFFF;
     transition: 0.1s;
 }
+div#menu-horizontal ul{
+  list-style: none;
+  text-align: center;
+}
+div#menu-horizontal ul li{
+  display: inline;
+  background-color: purple;
+  padding: 5px;
+
+}
+div#menu-horizontal ul li a{
+  text-decoration: none;
+  color: white;
+}
+div#menu-horizontal{
+  float: right;
+  width: auto;
+  height: auto;
+  margin-top: 5em;
+  font-size: 12pt;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  right: 5em;
+  position: absolute;
+}
