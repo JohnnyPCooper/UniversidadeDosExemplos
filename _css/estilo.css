@@ -215,3 +215,22 @@ div#menu-horizontal{
   right: 5em;
   position: absolute;
 }
+div#logo-info{
+  width: 64px;
+  height: 64px;
+  float: left;
+  padding: 10px;
+}
+div#logo-info img{
+  width: inherit;
+}
+div#info-titulo{
+  height: 64px;
+  float: left;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+p#Copyright{
+  text-align: center;
+  clear: both;
+}
