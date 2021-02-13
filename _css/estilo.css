@@ -17,17 +17,18 @@ p{
 body{
     background-color: #ddd;
 }
-
+/* Nesta etapa, se faz a configuração da tela inteira, que será 100% */
 div#container{
     width: 100%;
     min-width: 840px;
 }
-
+/* Configuração do header do container */
 div#container>header{
     height: 120px;
     background: #7B1FA2 url(../_img/banner-modelo.png) no-repeat center left;
     background-size: 400px 100px;
 }
+/* Configuração do primeiro "slide" que é na verdade um banner fixo */
 div#slide{
     background: url(../_img/pexels-andrea-piacquadio-3807755.jpg) no-repeat center center;
     background-attachment: fixed;
@@ -38,6 +39,7 @@ div#slide{
     border-bottom-right-radius: 50px;*/
     margin-top: 0px;
 }
+/* Configuração do quote que aparece no slide */
 div#quote{
     background: #7B1FA2;
     width: 400px;
@@ -51,12 +53,14 @@ div#quote{
     border-top-left-radius: 30px;
     border: 5px solid rgb(200, 43, 226);
 }
-
+/* Definição do quote */
 div#quote>h1{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #FFFFFF;
 }
+
+/* O parágrafo do quote */
 div#quote p{
     color: #FFFFFF;
     font-size: 16pt;
@@ -64,6 +68,8 @@ div#quote p{
     word-wrap: break-word;
     word-break: break-all;
 }
+
+/* Definição do input aplicar, que aparece em amarelo na página */
 input#aplicar{
     background-color: goldenrod;
     font-size: 16pt;
@@ -74,27 +80,33 @@ input#aplicar{
     padding: 10px;
     border: none;
 }
-
+input#aplicar:hover{
+    background-color: #daa490;
+}
+/* Definição da imagem da câmera de segurança, definindo suas propriedades */
 img#security{
     padding: 10px;
     width: 25em;
     border-radius: 10px;
     float: right;
 }
+
+/* Definição da imagem da biblioteca, definindo suas propriedades */
 img#library{
     padding: 10px;
     width: 25em;
     border-radius: 10px;
     float: left;
 }
+
+/* Configuração do parágrafo que aparece logo embaixo dos valores e etc */
 div#paragrafo{
     width: 90%;
     text-align: justify;
     text-justify: inter-word;
 }
-input#aplicar:hover{
-    background-color: #daa490;
-}
+
+/* Configuração das divs que falam de cada parte importante depois dos slides */
 div#missao-visao-valores, div#biblioteca, div#campus{
     background-color: #E1BEE7;
     padding: 10px;
@@ -104,11 +116,13 @@ div#missao-visao-valores, div#biblioteca, div#campus{
     margin-bottom: 10px;*/
 }
 
+/* Definição do das imagens que ficam nas "informs-collection" */
 div#informs-collection img{
     width: 96px;
     height: 96px;
 }
 
+/* Definição das propriedades dos informs */
 div.informs{
     display: inline-block;
     width: 31%;
@@ -119,14 +133,12 @@ div.informs{
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-
+/* Definição do título de cada informe */
 div.informs h2{
     color: #FFFFFF;
     font-size: 72pt;
 }
-div.informs p{
-}
-
+/* Definição das propriedades footer */
 footer{
     background-color: #7B1FA2;
     color: #FFFFFF;
@@ -134,16 +146,19 @@ footer{
     padding: 10px;
     margin-top: 20px;
 }
+
+/* Definindo os h1 das divs que fazem referência às áreas após os slides */
 div#missao-visao-valores h1, div#biblioteca h1, div#campus h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* Definindo os p das divs que fazem referência às áreas após os slides */
 div#missao-visao-valores p, div#biblioteca p, div#campus p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16pt;
 }
 
-
+/* Configurando o segundo slide */
 div#slide2{
     background: url(../_img/pexels-pixabay-256490.jpg) no-repeat center center;
     background-attachment: fixed;
@@ -154,7 +169,7 @@ div#slide2{
     margin-top: 0px;
     text-align: center;
 }
-
+/* Configurando o terceiro slide */
 div#slide3{
     background: url(../_img/pexels-pixabay-159740.jpg) no-repeat center center;
     background-attachment: fixed;
@@ -165,7 +180,7 @@ div#slide3{
     margin-top: 0px;
     text-align: center;
 }
-
+/* Configurando os títulos que aparecem nos slides */
 h1#campus, h1#biblioteca{
     background-color: #E1BEE7;
     position: relative;
@@ -183,7 +198,7 @@ h1#campus:hover, h1#biblioteca:hover{
     color: #FFFFFF;
     transition: 0.1s;
 }
-
+/* Configurando o menu horizontal */
 div#menu-horizontal ul{
   list-style: none;
   text-align: center;
@@ -215,6 +230,8 @@ div#menu-horizontal{
   right: 5em;
   position: absolute;
 }
+
+/* Configurano outros detalhes que fazem parte do footer */
 div#logo-info{
   width: 64px;
   height: 64px;
